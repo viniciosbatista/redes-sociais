@@ -9,13 +9,13 @@ html, body{
     width: 100vw;
     
 }
-
-main{
+body{
     position: relative;
     height: 100vh;
     background-image: url(fotos/imagens/fundo-madeira.jpg);
     background-size: cover;
 }
+
 section#telefone{
         position: absolute;
         top: 50%;
@@ -44,6 +44,9 @@ iframe#tela{
     width: 50px;
     top: 10px;
     margin: 3px;
+    box-sizing: border-box;
 }
-
+a>img:hover{
+    border: 2px solid white;
+}
 
