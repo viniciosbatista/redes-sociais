@@ -17,36 +17,41 @@ body{
 }
 
 section#telefone{
+    
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
         background-position: center;
-        width:500px;
-        height:500px;
+        width:200px;
+        height:400px;
         background-image: url(fotos/imagens/frame-iphone.png);
         background-repeat:no-repeat;
         background-size: contain;
 }
 iframe#tela{
     position: relative;
-    top: 63px;
-    left: 143px;
-    width: 214px;
-    height: 377px;
-    border:none ;
+    top: 51px;
+    left: 13px;
+    width: 172px;
+    height: 300px;
+    
     
 }
-.logo{
-    position: relative;
-    border-radius: 50%;
-    left: 89%;
-    width: 50px;
-    top: 10px;
-    margin: 3px;
-    box-sizing: border-box;
-}
-a>img:hover{
-    border: 2px solid white;
+section#redes-sociais{
+    text-align: right;
 }
 
+.logo{
+    border-radius: 50%;
+    width: 50px;
+    margin: 5px;
+    box-sizing: border-box;
+    
+}
+a>img:hover{
+    border: 3px solid rgb(255, 255, 255);
+    transform:translate(-20px,0px);
+    transition:.5s;
+    
+}
